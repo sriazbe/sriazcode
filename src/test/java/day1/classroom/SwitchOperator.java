@@ -20,7 +20,16 @@ public class SwitchOperator {
 	 */	
 	
 	public static void main(String[] args) {
-		
+		int i = 3;
+		int n = 4;
+		String oper = "div";
+		switch (add):
+			System.out.println("sum of 2 numbers"(i+n));
+		break;
+		switch(sub):
+			System.out.println();
+				
+				
 		
 		// Declare 2 integer numbers
 		
