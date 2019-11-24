@@ -1,10 +1,14 @@
 package day1.classroom;
 
 public class Mobile {
-	public String makeCall(String Name) {
-		System.out.println("Calling SAi");
+	/*public String makeCall(String Name) {
+		System.out.println("Calling friend");
 		return Name;
 
+	}*/
+	public int phoneCall(int mobileno) {
+		System.out.println("9890580979");
+		return mobileno;
 	}
 
 	public String sendSMS(String Content) {
@@ -21,12 +25,16 @@ public class Mobile {
 
 public static void main(String[] args) {
 	Mobile info = new Mobile();
-	info.makeCall(Name)Call("Sai");
-	info.sendSMS("Hi ");
-	boolean shutDown = info.shutDown();
+	int person = info.phoneCall(908009048);
+	System.out.println(person);
+	String message = info.sendSMS("Hi");
+	System.out.println(message);
+	boolean dispos = info.shutDown();
+	System.out.println(dispos);
+}
+}
+	
 	
 	
 			
 	
-}
-}

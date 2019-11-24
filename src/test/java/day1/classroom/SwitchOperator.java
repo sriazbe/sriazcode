@@ -19,17 +19,34 @@ public class SwitchOperator {
 	 * 
 	 */	
 	
-	public static void main(String[] args) {
+	public static void main(String args) {
 		int i = 3;
 		int n = 4;
-		String oper = "div";
-		switch (add):
-			System.out.println("sum of 2 numbers"(i+n));
-		break;
-		switch(sub):
-			System.out.println();
-				
-				
+		String oper;
+		oper= "divide";
+		switch (oper) 
+		{
+		
+			case "add":
+			System.out.println("sum of 2 numbers"+(i+n));
+		    break;
+		    
+			case "sub":
+			System.out.println("subtract of 2 numbers"+(i-n));
+		    break;
+			case "multiply":
+			System.out.println("multiplication of 2 number"+(i*n));
+		    break;
+			case "divide":
+			System.out.println("division of 2 numbers"+(i/n));
+		    break;
+		    default:
+			System.out.println("there's no specified operator");
+		    break;
+		
+		}	
+	}
+}
 		
 		// Declare 2 integer numbers
 		
@@ -57,6 +74,3 @@ public class SwitchOperator {
 		
 		//end of switch case
 		
-	}
-
-}

@@ -23,13 +23,13 @@ public class Factorial {
 		
 		System.out.println("Finding the factorial of a given number");
 		int n = 5;
-		int i ;
-		int fact = 0;
+		int i=1 ;
+		int fact = 1;
 				
-				while (i>=n)
+				while (i<=n)
 				{
-					fact = fact+(n*i);
-					i = i-1;
+					fact = fact*i;
+					i = i+1;
 					
 							
 				}
